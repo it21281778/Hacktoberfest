@@ -23,23 +23,29 @@ void loop() {
 
     delay(timer);
 
-    // turn the pin off:
+    //turn the pin off
 
     digitalWrite(thisPin, LOW);
 
   }
 
-  // loop from the highest pin to the lowest:
+  //loop from the highest pin to the lowest:
 
+  
   for (int thisPin = 7; thisPin >= 2; thisPin--) {
 
+    
     // turn the pin on:
 
+    
     digitalWrite(thisPin, HIGH);
 
+    
     delay(timer);
 
+    
     // turn the pin off:
+    
 
     digitalWrite(thisPin, LOW);
 
