@@ -1,1 +1,1 @@
-Created this repository to make collaborates to Hacktoberfest2022
+Created this repository to make collaborates to Hacktoberfest 2022
