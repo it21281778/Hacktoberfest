@@ -39,17 +39,10 @@ void loop() {
 
     
     // turn the pin on:
-
-    
     digitalWrite(thisPin, HIGH);
-
-    
     delay(timer);
 
-    
     // turn the pin off:
-    
-
     digitalWrite(thisPin, LOW);
 
 
