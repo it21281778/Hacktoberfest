@@ -11,6 +11,9 @@ void setup() {
   }
 }
 
+
+// added loop
+
 void loop() {
 
   // loop from the lowest pin to the highest:
@@ -48,6 +51,8 @@ void loop() {
     
 
     digitalWrite(thisPin, LOW);
+
+
 
   }
 }
