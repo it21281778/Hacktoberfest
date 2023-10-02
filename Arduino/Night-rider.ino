@@ -4,9 +4,10 @@ void setup() {
 
   // use a for loop to initialize each pin as an output:
 
-  for (int thisPin = 2; thisPin < 8; thisPin++) {
+    for (int thisPin = 2; thisPin < 8; thisPin++) {
 
     pinMode(thisPin, OUTPUT);
+
 
   }
 }
@@ -17,7 +18,6 @@ void setup() {
 void loop() {
 
   // loop from the lowest pin to the highest:
-
   for (int thisPin = 2; thisPin < 8; thisPin++) {
 
     // turn the pin on:
@@ -30,7 +30,7 @@ void loop() {
 
     digitalWrite(thisPin, LOW);
 
-  }
+  }  // End of loop
 
   //loop from the highest pin to the lowest:
 
