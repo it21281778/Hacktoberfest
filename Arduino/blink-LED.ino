@@ -11,6 +11,8 @@ void loop() {
   Serial.println(i); 
   digitalWrite(13,HIGH); //light on
   delay(1500); //increased delay 1.5seconds 
+
+  // make 1 second delay
   digitalWrite(13,LOW); //light off
   delay(1000);
   i++;
